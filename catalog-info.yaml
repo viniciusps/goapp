@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: GoApp
+  description: testing
+  annotations: 
+    github.com/project-slug: viniciusps/goapp
+    backstage.io/source-ref: "https://github.com/viniciusps/goapp.git"
+    backstage.io/techdocs-ref: url:https://github.com/viniciusps/goapp.git
+    backstage.io/github-actions-id: https://github.com/viniciusps/goapp.git
+spec:
+  type: service
+  lifecycle: experimental
+  owner: viniciusps
